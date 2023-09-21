@@ -24,6 +24,10 @@ public class Gaulois {
 		System.out.println(prendreParole()+"<< "+texte +">>");
 		
 	}
+	private String prendreParole() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	}
 }
 
