@@ -4,6 +4,7 @@ public class Gaulois {
 	private String nom;
 	private int force;
 	private int effetPotion = 1;
+	
 	public Gaulois(String nom, int force) {
 		super();
 		this.nom = nom;
@@ -19,9 +20,10 @@ public class Gaulois {
 	public int getEffetPotion() {
 		return effetPotion;
 	}
-	
-	public void name() {
-	p	
+	public void parler(String texte) {
+		System.out.println(prendreParole()+"<< "+texte +">>");
+		
+	}
 	}
 }
 
